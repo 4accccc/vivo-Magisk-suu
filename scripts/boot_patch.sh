@@ -220,6 +220,11 @@ if [ -f kernel ]; then
   # After:  [mov w2, #-32768]
   ./magiskboot hexpatch kernel 821B8012 E2FF8F12 && PATCHEDKERNEL=true
 
+  # patch vivo do_mount_check
+  # /system -> /syswxl
+  # python3 -c "print(hex(int.from_bytes(b'/system', 'big')^int('bdbcbbbab9b8b7', 16)))"
+  ./magiskboot hexpatch kernel 0092CFC2C9CDDDDA00 0092CFC2C9CEC0DB00
+
   # Force kernel to load rootfs for legacy SAR devices
   # skip_initramfs -> want_initramfs
   $SYSTEM_ROOT && ./magiskboot hexpatch kernel \
