@@ -29,7 +29,7 @@ extern std::string    MAGISKTMP;
 #define ZYGISKBIN     INTLROOT "/zygisk"
 #define SELINUXMOCK   INTLROOT "/selinux"
 
-constexpr const char *applet_names[] = { "su", "resetprop", nullptr };
+constexpr const char *applet_names[] = { "suu", "resetprop", nullptr };
 
 #define POST_FS_DATA_WAIT_TIME       40
 #define POST_FS_DATA_SCRIPT_MAX_TIME 35
