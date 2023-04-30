@@ -40,7 +40,7 @@ THE OFFICAL MAGISK DOESNT HAVE A SUU VERSION SO PLZ STOP!
 ## Building and Development
 
 - Magisk builds on any OS Android Studio supports. Install Android Studio and do the initial setups.
-- Clone sources: `git clone --recurse-submodules https://github.com/4accccc/vivo-Magisk-suu/Magisk.git`
+- Clone sources: `git clone --recurse-submodules https://github.com/4accccc/vivo-Magisk-suu.git`
 - Install Python 3.8+ \
   (Windows only: select **'Add Python to PATH'** in installer, and run `pip install colorama` after install)
 - Configure to use the JDK bundled in Android Studio:
