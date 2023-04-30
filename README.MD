@@ -1,3 +1,4 @@
+[中文用户往这里看过来](https://github.com/4accccc/vivo-Magisk-suu/blob/master/README_Chinese.MD)
 # This is the "suu" version of Magisk.
 # This version of Magisk use "suu" command to get root permission. 
 # For those vivo users who want to root their vivo phones without being bricked.
