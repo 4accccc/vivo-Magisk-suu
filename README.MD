@@ -2,7 +2,7 @@
 # This is the "suu" version of Magisk.
 # This version of Magisk use "suu" command to get root permission. 
 # For those vivo users who want to root their vivo phones without being bricked.
-# You can follow `Building and Development` below to build your own Magisk(suu) or download the compiled apk file in `Release`
+# You can follow `Building and Development` below to build your own Magisk(suu) or download the prebuilt apk file in `Release`
 # Enjoy! :)
 
 
