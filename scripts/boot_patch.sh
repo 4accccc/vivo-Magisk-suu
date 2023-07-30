@@ -220,6 +220,11 @@ done
 
 if [ -f kernel ]; then
   PATCHEDKERNEL=false
+  # patch vivo do_mount_check
+  # /system -> /syswxl
+  # python3 -c "print(hex(int.from_bytes(b'/system', 'big')^int('bdbcbbbab9b8b7', 16)))"
+  ./magiskboot hexpatch kernel 0092CFC2C9CDDDDA00 0092CFC2C9CEC0DB00
+
   # Remove Samsung RKP
   ./magiskboot hexpatch kernel \
   49010054011440B93FA00F71E9000054010840B93FA00F7189000054001840B91FA00F7188010054 \
