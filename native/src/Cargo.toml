@@ -1,0 +1,47 @@
+[workspace]
+exclude = ["external"]
+members = ["base", "boot", "core", "init", "sepolicy"]
+resolver = "2"
+
+[workspace.dependencies]
+cxx = { path = "external/cxx-rs" }
+cxx-gen = { path = "external/cxx-rs/gen/lib" }
+libc = "0.2"
+cfg-if = "1.0"
+num-traits = "0.2"
+num-derive = "0.3"
+thiserror = "1.0"
+byteorder = "1"
+size = "0.4"
+sha1 = "0.10"
+sha2 = "0.10"
+digest = "0.10"
+p256 = "0.13"
+p384 = "0.13"
+rsa = "0.9"
+x509-cert = "0.2"
+der = "0.7"
+
+[workspace.dependencies.argh]
+git = "https://github.com/topjohnwu/argh.git"
+rev = "f0ca7d9d7f66b4ff56fbbd44ce19a96c625bffd8"
+
+[workspace.dependencies.pb-rs]
+git = "https://github.com/tafia/quick-protobuf.git"
+rev = "2f37d5a65504de7d716b5b28fd82219501a901a9"
+
+[workspace.dependencies.quick-protobuf]
+git = "https://github.com/tafia/quick-protobuf.git"
+rev = "2f37d5a65504de7d716b5b28fd82219501a901a9"
+
+[profile.dev]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"

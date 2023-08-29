@@ -1,0 +1,17 @@
+[package]
+name = "base"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+path = "lib.rs"
+
+[build-dependencies]
+cxx-gen = { workspace = true }
+
+[dependencies]
+cxx = { workspace = true }
+libc = { workspace = true }
+cfg-if = { workspace = true }
+thiserror = { workspace = true }
+argh = { workspace = true }

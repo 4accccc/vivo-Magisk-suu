@@ -1,0 +1,7 @@
+/build
+obj
+libs
+/.externalNativeBuild
+/.cxx
+*-rs.cpp
+*-rs.hpp

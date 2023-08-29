@@ -1,0 +1,18 @@
+out
+*.zip
+*.jks
+*.apk
+/config.prop
+/update.sh
+/dict.txt
+
+# Built binaries
+native/out
+
+# Android Studio / Gradle
+*.iml
+.gradle
+/local.properties
+/.idea
+/build
+/captures
