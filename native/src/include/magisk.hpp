@@ -13,7 +13,7 @@
 // tmpfs paths
 extern std::string    MAGISKTMP;
 #define INTLROOT      ".magisk"
-#define MIRRDIR       INTLROOT "/mirror"u
+#define MIRRDIR       INTLROOT "/mirror"
 #define PREINITMIRR   INTLROOT "/preinit"
 #define BLOCKDIR      INTLROOT "/block"
 #define PREINITDEV    BLOCKDIR "/preinit"
