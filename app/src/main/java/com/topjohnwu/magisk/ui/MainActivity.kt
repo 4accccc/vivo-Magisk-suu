@@ -182,7 +182,7 @@ class MainActivity : SplashActivity<ActivityMainMd2Binding>() {
         if (!Info.isEmulator && Info.env.isActive && System.getenv("PATH")
                 ?.split(':')
                 ?.filterNot { File("$it/magisk").exists() }
-                ?.any { File("$it/su").exists() } == true) {
+                ?.any { File("$it/suu").exists() } == true) {
             MagiskDialog(this).apply {
                 setTitle(R.string.unsupport_general_title)
                 setMessage(R.string.unsupport_other_su_msg)
