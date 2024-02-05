@@ -106,9 +106,9 @@ object Config : PreferenceConfig, DBConfig {
 
     private val defaultChannel =
         if (BuildConfig.DEBUG)
-            Value.DEBUG_CHANNEL
+            Value.DEFAULT_CHANNEL
         else if (Const.APP_IS_CANARY)
-            Value.CANARY_CHANNEL
+            Value.DEFAULT_CHANNEL
         else
             Value.DEFAULT_CHANNEL
 

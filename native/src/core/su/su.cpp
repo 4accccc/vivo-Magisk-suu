@@ -26,8 +26,9 @@ int quit_signals[] = { SIGALRM, SIGABRT, SIGHUP, SIGPIPE, SIGQUIT, SIGTERM, SIGI
     FILE *stream = (status == EXIT_SUCCESS) ? stdout : stderr;
 
     fprintf(stream,
-    "MagiskSU\n\n"
-    "Usage: su [options] [-] [user [argument...]]\n\n"
+    "MagiskSUU\n"
+    "Presented by ccccclovemiku@coolapk\n\n"
+    "Usage: suu [options] [-] [user [argument...]]\n\n"
     "Options:\n"
     "  -c, --command COMMAND         Pass COMMAND to the invoked shell\n"
     "  -g, --group GROUP             Specify the primary group\n"
