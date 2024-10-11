@@ -126,7 +126,7 @@ void restore_tmpcon() {
     if (tmp == "/sbin"sv)
         setfilecon(tmp, ROOT_CON);
     else
-        chmod(tmp, 0711);
+        chmod(tmp, 0755);
 
     auto dir = xopen_dir(tmp);
     int dfd = dirfd(dir.get());
