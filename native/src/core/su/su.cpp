@@ -26,8 +26,9 @@ int quit_signals[] = { SIGALRM, SIGABRT, SIGHUP, SIGPIPE, SIGQUIT, SIGTERM, SIGI
     FILE *stream = (status == EXIT_SUCCESS) ? stdout : stderr;
 
     fprintf(stream,
-    "MagiskSU\n\n"
-    "Usage: su [options] [-] [user [argument...]]\n\n"
+    "MagiskSUU\n"
+    "Presented by ccccclovemiku@coolapk\n\n"
+    "Usage: suu [options] [-] [user [argument...]]\n\n"
     "Options:\n"
     "  -c, --command COMMAND         Pass COMMAND to the invoked shell\n"
     "  -g, --group GROUP             Specify the primary group\n"
@@ -134,7 +135,7 @@ int su_client_main(int argc, char *argv[]) {
                 printf("%d\n", MAGISK_VER_CODE);
                 exit(EXIT_SUCCESS);
             case 'v':
-                printf("%s\n", MAGISK_VERSION ":MAGISKSU");
+                printf("%s\n", MAGISK_VERSION ":MAGISKSUU");
                 exit(EXIT_SUCCESS);
             case 'Z':
                 su_req.context = optarg;

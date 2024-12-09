@@ -20,11 +20,11 @@
     <string name="home_package">包名</string>
     <string name="home_app_title">App</string>
 
-    <string name="home_notice_content">仅从官方 GitHub 页面下载 Magisk。未知来源的文件可能具有恶意行为！</string>
+    <string name="home_notice_content">Magisk 28.1 SUU 版 \nBy ccccclovemiku@coolapk. \n有问题找3470498017@qq.com</string></string>
     <string name="home_support_title">支持开发</string>
     <string name="home_follow_title">关注我们</string>
     <string name="home_item_source">源代码</string>
-    <string name="home_support_content">Magisk 将一直保持免费且开源，向开发者捐赠以表示支持。</string>
+    <string name="home_support_content">Magisk 更新网址：https://www.lanzouq.com/b0aenhnib \n您可以点击下方Patreon图标请我喝一瓶红牛。</string>
     <string name="home_installed_version">当前</string>
     <string name="home_latest_version">最新</string>
     <string name="invalid_update_channel">无效的更新通道</string>
