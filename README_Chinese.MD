@@ -1,3 +1,6 @@
+# 重要通知：我(@4accccc)将淡退此项目开发。全权交给@Winkmoon代理。
+# 还不去关注 @Winkmoon ？ :3
+
 [suu面具网盘仓库](https://www.lanzouq.com/b0aenhnib)  
 [Github Wiki](https://github.com/4accccc/vivo-Magisk-suu/wiki)
 # 这是suu版本面具
