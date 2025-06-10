@@ -1,3 +1,6 @@
+# IMPORTANT NOTE:I(@4accccc) have no passion on this anymore.@Winkmoon will take my place.
+# plz go and follow @Winkmoon :3
+
 [中文用户往这里看过来](https://github.com/4accccc/vivo-Magisk-suu/blob/master/README_Chinese.MD)  
 [Github Wiki](https://github.com/4accccc/vivo-Magisk-suu/wiki)  
 [my suu magisk netdisk](https://www.lanzouq.com/b0aenhnib)  
