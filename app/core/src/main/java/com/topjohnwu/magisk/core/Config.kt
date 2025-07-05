@@ -196,8 +196,8 @@ object Config : PreferenceConfig, DBConfig {
             prefs.getString(UPDATE_CHANNEL, null)?.let {
                 val channel = when (it.toInt()) {
                     OldValue.STABLE_CHANNEL -> Value.STABLE_CHANNEL
-                    OldValue.CANARY_CHANNEL, OldValue.BETA_CHANNEL -> Value.BETA_CHANNEL
-                    OldValue.DEBUG_CHANNEL -> Value.DEBUG_CHANNEL
+                    OldValue.CANARY_CHANNEL, OldValue.BETA_CHANNEL -> Value.STABLE_CHANNEL
+                    OldValue.DEBUG_CHANNEL -> Value.STABLE_CHANNEL
                     OldValue.CUSTOM_CHANNEL -> Value.CUSTOM_CHANNEL
                     else -> Value.DEFAULT_CHANNEL
                 }

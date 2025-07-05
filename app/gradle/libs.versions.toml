@@ -48,9 +48,9 @@ test-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version =
 
 # topjohnwu
 indeterminate-checkbox = { module = "com.github.topjohnwu:indeterminate-checkbox", version = "1.0.7" }
-libsu-core = { module = "com.github.topjohnwu.libsu:core", version.ref = "libsu" }
-libsu-service = { module = "com.github.topjohnwu.libsu:service", version.ref = "libsu" }
-libsu-nio = { module = "com.github.topjohnwu.libsu:nio", version.ref = "libsu" }
+libsu-core = { module = "com.github.4accccc.libsu:core", version.ref = "libsu" }
+libsu-service = { module = "com.github.4accccc.libsu:service", version.ref = "libsu" }
+libsu-nio = { module = "com.github.4accccc.libsu:nio", version.ref = "libsu" }
 
 # Rikka
 rikka-recyclerview = { module = "dev.rikka.rikkax.recyclerview:recyclerview-ktx", version = "1.3.2" }

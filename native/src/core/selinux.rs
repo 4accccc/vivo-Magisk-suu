@@ -77,7 +77,7 @@ pub(crate) fn restore_tmpcon() -> LoggedResult<()> {
     if tmp == "/sbin" {
         tmp.set_secontext(ROOT_CON)?;
     } else {
-        unsafe { libc::chmod(tmp.as_ptr(), 0o711) };
+        unsafe { libc::chmod(tmp.as_ptr(), 0o755) };
     }
 
     let mut path = cstr::buf::default();
