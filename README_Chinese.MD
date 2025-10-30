@@ -1,5 +1,5 @@
-# 重要通知：我(@4accccc)将淡退此项目开发。全权交给@Winkmoon代理。
-# 还不去关注 @Winkmoon ？ :3
+# 重要通知：我(@4accccc)将淡退此项目开发。全权交给@Winkmoon 和 @trlefi代理。
+# 还不去关注 @Winkmoon 和 @trlefi？ :3
 
 [suu面具网盘仓库](https://www.lanzouq.com/b0aenhnib)  
 [Github Wiki](https://github.com/4accccc/vivo-Magisk-suu/wiki)
@@ -40,7 +40,7 @@ Magisk 是由一系列开源应用组成的用来自定义安卓的应用，支�
 - 安装Git:
   在类Unix系统中，选择你喜欢的包管理器安装Git即可。 \
   在Windows系统中，在Git官网找到最新版安装即可，确保安装过程中启用“Enable symbolic links”选项。
-- 打开cmd输入`git clone --recurse-submodules https://github.com/4accccc/vivo-Magisk-Delta-suu.git`
+- 打开cmd输入`git clone --recurse-submodules https://github.com/4accccc/vivo-Magisk-suu.git`
 - 安装 Python 版本3.8+ \
   (Windows 用户: 选中 **'Add Python to PATH'**) \
   (Windows 可选)安装完成后命令行输入`pip install colorama`
