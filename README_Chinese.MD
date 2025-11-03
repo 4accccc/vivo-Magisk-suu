@@ -1,4 +1,4 @@
-# 重要通知：我(@4accccc)将淡退此项目开发。全权交给@Winkmoon 和 @trlefi代理。
+# 重要通知：我(@4accccc)将淡退此项目开发。全权交给@Winkmoon 和 @trlefi 代理。
 # 还不去关注 @Winkmoon 和 @trlefi？ :3
 
 [suu面具网盘仓库](https://www.lanzouq.com/b0aenhnib)  
@@ -36,7 +36,7 @@ Magisk 是由一系列开源应用组成的用来自定义安卓的应用，支�
 ## Building and Development & 编译教程
 
 - 首先安装Android Studio
-- Windows用户，打开设置中的开发者模式(我们需要符号链接支持)。
+- Windows用户，打开系统设置中的开发者模式(我们需要符号链接支持)。
 - 安装Git:
   在类Unix系统中，选择你喜欢的包管理器安装Git即可。 \
   在Windows系统中，在Git官网找到最新版安装即可，确保安装过程中启用“Enable symbolic links”选项。
@@ -50,7 +50,7 @@ Magisk 是由一系列开源应用组成的用来自定义安卓的应用，支�
 - 新建名为 `ANDROID_HOME` 的环境变量，变量值输入Android SDK 文件夹对应地址 (Android Studio设置里能找到)
 - 运行`./build.py ndk`以下载ndk
 - 运行`./build.py -r all`开始构建 Magisk
-- 要开始开发，请使用 Android Studio 打开项目。此 IDE 可用于APP（Kotlin/Java）和native代码。
+- 要开始开发，请使用 Android Studio 打开项目。此 IDE 可用于APP（Kotlin/Java）和原生代码。
 - 您也可以在 `config.prop` 中进行自定义设置. 仓库中提供了一个示例文件 `config.prop.sample` .
 
 ## Signing and Distribution & 签名以及分发
