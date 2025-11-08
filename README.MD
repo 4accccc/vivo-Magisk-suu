@@ -1,4 +1,4 @@
-# IMPORTANT NOTE: I(@4accccc) have no passion for this project anymore.@Winkmoon & @trlefi will take my place.
+# IMPORTANT NOTE: I(@4accccc) have no passion for this project anymore.@Winkmoon & @Nevoraa will take my place.
 # plz go and follow @Winkmoon & @Nevoraa :3
 
 [中文用户往这里看过来](https://github.com/4accccc/vivo-Magisk-suu/blob/master/README_Chinese.MD)  
