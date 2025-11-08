@@ -1,11 +1,11 @@
 # IMPORTANT NOTE: I(@4accccc) have no passion for this project anymore.@Winkmoon & @trlefi will take my place.
-# plz go and follow @Winkmoon & @trlefi :3
+# plz go and follow @Winkmoon & @Nevoraa :3
 
 [中文用户往这里看过来](https://github.com/4accccc/vivo-Magisk-suu/blob/master/README_Chinese.MD)  
 [Github Wiki](https://github.com/4accccc/vivo-Magisk-suu/wiki)  
 [my suu magisk netdisk](https://www.lanzouq.com/b0aenhnib)
 
-[trlefi仓库](https://github.com/trlefi/Magisk-suu)
+[Nevoraa仓库](https://github.com/Nevoraa/Magisk-suu)
 
 # This is the "suu" version of Magisk.
 # This version of Magisk use "suu" command to get root permission. 
